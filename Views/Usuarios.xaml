@@ -1,0 +1,138 @@
+﻿<Page
+    x:Class="AppSistemaVentas.Views.Usuarios"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppSistemaVentas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <CommandBar Grid.Row="0">
+            <AppBarToggleButton Icon="Back" Label="Primero" Command="{Binding Primero}"/>
+            <AppBarToggleButton Icon="Previous" Label="Anterior" Command="{Binding Anterior}"/>
+            <AppBarToggleButton Icon="Next" Label="Siguiente" Command="{Binding Siguiente}"/>
+            <AppBarToggleButton Icon="Forward" Label="Último" Command="{Binding Ultimo}"/>
+            <AppBarSeparator/>
+            <AppBarToggleButton Icon="Add" Label="Add" Command="{Binding AddCommand}"/>
+            <AppBarToggleButton Icon="Delete" Label="Delete" Command="{Binding Delete}"/>
+            <AppBarToggleButton Icon="RepeatAll" Label="Repeat" Command="{Binding Refresh}"/>
+            <AppBarSeparator/>
+            <CommandBar.Content>
+
+                <TextBlock Text="Registros de usuarios" Margin=" 10,10"/>
+
+            </CommandBar.Content>
+         
+        </CommandBar>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="90"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <AutoSuggestBox  x:Name="Search" QueryIcon="Find" Text="{Binding Search, Mode=TwoWay,
+           UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Buscar usuarios" Width="200"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+
+                <TextBlock FontSize="12" Text="Registros" HorizontalAlignment="Center" Padding="0,6,0,0"/>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <DropDownButton ToolTipService.ToolTip="Alignment" HorizontalAlignment="Center"
+                                VerticalAlignment="Center" Width="79">
+                    <TextBlock FontSize="16" Text="{Binding Reg_por_pagina, Mode=TwoWay}"/>
+                    <DropDownButton.Flyout>
+                        <MenuFlyout Placement="BottomEdgeAlignedLeft">
+                            <MenuFlyoutItem Text="2" Icon="AlignCenter" Tag="2"
+                                  Click="AlignmentMenuFlyoutItem_Click"          />
+                            <MenuFlyoutItem Text="10" Icon="AlignCenter" Tag="10"
+                                  Click="AlignmentMenuFlyoutItem_Click"          />
+                            <MenuFlyoutItem Text="15" Icon="AlignCenter" Tag="15"
+                                  Click="AlignmentMenuFlyoutItem_Click"          />
+
+                        </MenuFlyout>
+                    </DropDownButton.Flyout>
+                </DropDownButton>
+            </StackPanel>
+            <StackPanel Grid.Column="3">
+                <TextBlock x:Name="Paginas" FontSize="12" Text="Páginas" Margin="0,0,0,0" Padding="0,5,0,0"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <RefreshContainer x:Name="RefreshContainer" RefreshRequested="RefreshContainer_RefreshRequested">
+            <ListView x:Name="ListViewUsers" ItemsSource="{Binding ListUsers,Mode=TwoWay}" SelectionChanged="ListViewUsers_SelectionChanged">
+                <ListView.HeaderTemplate>
+                    <DataTemplate>
+                        <Grid Padding="12" Background="{ThemeResource SystemBaseLowColor}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Padding="5">
+                                <TextBlock TextAlignment="Center" Text="Imagen" Style="{ThemeResource CaptionTextBlockStyle}"/>
+
+                            </StackPanel>
+                            <StackPanel  Grid.Column="1" Padding="5">
+                                <TextBlock TextAlignment="Center" Text="Nombre" Style="{ThemeResource CaptionTextBlockStyle}"/>
+                            </StackPanel>
+                            <StackPanel  Grid.Column="2" Padding="5">
+                                <TextBlock TextAlignment="Center" Text="Apellido" Style="{ThemeResource CaptionTextBlockStyle}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3">
+                                <CheckBox Content="All" IsChecked= "{Binding IsCheckedAll,Mode=TwoWay}"
+                             Command="{Binding CheckBox}"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.HeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Height="48">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="130"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                                <Ellipse Height="40" Width="40">
+                                    <Ellipse.Fill>
+                                         <ImageBrush ImageSource="{Binding Image}" Stretch="UniformToFill"/>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                <TextBlock TextAlignment="Center" Text="{Binding Name}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2" VerticalAlignment="Center">
+                                <TextBlock TextAlignment="Center" Text="{Binding LastName}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3" VerticalAlignment="Center">
+                                <CheckBox IsChecked="{Binding IsCheck,Mode=TwoWay}"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            </RefreshContainer>
+
+        </Grid>
+    </Grid>
+</Page>

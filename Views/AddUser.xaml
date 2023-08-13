@@ -1,0 +1,102 @@
+﻿<Page
+    x:Class="AppSistemaVentas.Views.AddUser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppSistemaVentas.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="580"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Panel0.Height" Value="460"/>
+                        <Setter Target="Panel1.Width" Value="250"/>
+                        <Setter Target="Panel1.Height" Value="350"/>
+                        <Setter Target="Panel1.Margin" Value="10,10,-310,-10"/>
+                        <Setter Target="Panel2.Margin" Value="40.667,8.667,0,52.333"/>
+                        <Setter Target="Panel3.Width" Value="500"/>
+                        <Setter Target="Panel3.HMargin" Value="304,10,0,0"/>
+                        <Setter Target="Examinar.Margin" Value="85.667,259.667,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+            
+        </VisualStateManager.VisualStateGroups>
+        <CommandBar>
+            <CommandBar.Content>
+                <TextBlock Text="{Binding UserTitle, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10,10" />
+            </CommandBar.Content>
+            <AppBarButton Icon="Back" Label="Areally&#x00AD;longlabel" Command="{Binding Back}"/>
+            <AppBarSeparator/>
+            <AppBarButton Icon="Add" Label="Agregar" Command="{Binding AddUser}"/>
+            <AppBarButton Icon="Cancel" Label="Cancelar" Command="{Binding CancelUser}"/>
+            
+
+        </CommandBar>
+
+        <ScrollViewer HorizontalAlignment="Stretch" Margin="0,45,0,0" VerticalAlignment="Stretch">
+            <RelativePanel x:Name="Panel0" Height="800" VerticalAlignment="Top" HorizontalAlignment="Left" Width="821">
+                <RelativePanel x:Name="Panel1" Margin="10,10,-349,-312.667" Height="250" BorderBrush="#FFC5C2C2" BorderThickness="1,1,1,1"
+                              CornerRadius="5,5,5,5" HorizontalAlignment="Stretch" >
+                    
+                    <StackPanel x:Name="Panel2" Height="180" Margin="80,8.667,0.333,52.666" HorizontalAlignment="Right" BorderBrush="#FFC5C2C2" BorderThickness="1,1,1,1"
+                                CornerRadius="100,100,100,100" Width="172">
+                        <Image Source="{Binding Image}" Height="170" Width="170" Stretch="UniformToFill"/>
+                    </StackPanel>
+                    <Button x:Name="Examinar" Content="Examinar" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="130.667, 200.667, -44.667,0" 
+                            Height="32" Command="{Binding cargarImage}" />
+
+                </RelativePanel>
+                <StackPanel x:Name="Panel3" HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Margin="10,330,0,0" BorderBrush="#FFC5C2C2"
+                            BorderThickness="1,1,1,1" CornerRadius="5,5,5,5" Width="339">
+                    <StackPanel Margin="5,5,5,5">
+                        <TextBox x:Name="NID" Text="{Binding Nid, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="NID" BorderThickness="1,1,1,1" InputScope="Number"/>
+
+                    </StackPanel>
+                    <StackPanel Margin="5,0,5,5">
+                        <TextBox x:Name="Name" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Nombre" BorderThickness="1,1,1,1"/>
+
+                    </StackPanel>
+                    <StackPanel Margin="5,0,5,5">
+                        <TextBox x:Name="LastName" Text="{Binding LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Apellido" BorderThickness="1,1,1,1"/>
+
+                    </StackPanel>
+                    <StackPanel Margin="5,0,5,5">
+                        <TextBox x:Name="Telephone" Text="{Binding Telephone, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Télefono" BorderThickness="1,1,1,1" InputScope="TelephoneNumber"/>
+
+                    </StackPanel>
+                    <StackPanel Margin="5,0,5,5">
+                        <TextBox x:Name="Email" Text="{Binding Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Email" BorderThickness="1,1,1,1" InputScope="EmailNameOrAddress"/>
+
+                    </StackPanel>
+                    <StackPanel Margin="5,0,5,5">
+                        <TextBox x:Name="Password" Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Contraseña" BorderThickness="1,1,1,1"/>
+
+                    </StackPanel>
+                    <StackPanel Margin="5,0,5,5">
+                        <TextBox x:Name="User" Text="{Binding User, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Usuario" BorderThickness="1,1,1,1"/>
+
+                    </StackPanel>
+                    <StackPanel Margin="5,0,5,10">
+                        <ComboBox x:Name="comboBox" PlaceholderText="Roles" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="46"
+                                  ItemsSource="{Binding ListRoles}" SelectedItem="{Binding SelectedRole, Mode=TwoWay}">
+                          
+                        </ComboBox>
+                    </StackPanel>
+                    
+                </StackPanel>
+            </RelativePanel>
+            
+            
+        </ScrollViewer>
+
+    </Grid>
+</Page>

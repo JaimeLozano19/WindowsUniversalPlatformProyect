@@ -1,0 +1,48 @@
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\bin\x86\Debug\Models.dll
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\bin\x86\Debug\Models.pdb
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\bin\x86\Debug\Models.pri
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\Models.csproj.CopyComplete
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\Models.dll
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\Models.pdb
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\priconfig.xml
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\resources.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\pri.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\qualifiers.txt
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Models\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Seminario\Proyecto Final\Models\bin\x86\Debug\Models.dll
+D:\Seminario\Proyecto Final\Models\bin\x86\Debug\Models.pdb
+D:\Seminario\Proyecto Final\Models\bin\x86\Debug\Models.pri
+D:\Seminario\Proyecto Final\Models\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\Models.csproj.AssemblyReference.cache
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\Models.csproj.CopyComplete
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\Models.dll
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\Models.pdb
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\priconfig.xml
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\priconfig.xml.intermediate
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\unfiltered.layout.resfiles
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\filtered.layout.resfiles
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\excluded.layout.resfiles
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\resources.resfiles
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\resources.resfiles.intermediate
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\pri.resfiles
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\pri.resfiles.intermediate
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\qualifiers.txt
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Seminario\Proyecto Final\Models\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

@@ -1,0 +1,84 @@
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\bin\x86\Debug\Connection.dll
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\bin\x86\Debug\Connection.pdb
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\bin\x86\Debug\Connection.pri
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.AssemblyReference.cache
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.CopyComplete
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\Connection.dll
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\Connection.pdb
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\priconfig.xml
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\resources.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\pri.resfiles
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\qualifiers.txt
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\bin\x86\Debug\Models.dll
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\bin\x86\Debug\Models.pdb
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\bin\x86\Debug\Models.pri
+C:\Users\Luis Miguel\Desktop\Proyecto Final\Connection\obj\x86\Debug\Models.pri.xml
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\bin\x86\Debug\Connection.dll
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\bin\x86\Debug\Connection.pdb
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\bin\x86\Debug\Connection.pri
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\bin\x86\Debug\Models.dll
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\bin\x86\Debug\Models.pdb
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\bin\x86\Debug\Models.pri
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.AssemblyReference.cache
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.CopyComplete
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\Models.pri.xml
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\Connection.dll
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\Connection.pdb
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\priconfig.xml
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\resources.resfiles
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\pri.resfiles
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\qualifiers.txt
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Jaimito\Desktop\Trabajos ut\semestre 5\seminario\proyecto\Proyecto Final\Connection\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Seminario\Proyecto Final\Connection\bin\x86\Debug\Connection.dll
+D:\Seminario\Proyecto Final\Connection\bin\x86\Debug\Connection.pdb
+D:\Seminario\Proyecto Final\Connection\bin\x86\Debug\Connection.pri
+D:\Seminario\Proyecto Final\Connection\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\Seminario\Proyecto Final\Connection\bin\x86\Debug\Models.dll
+D:\Seminario\Proyecto Final\Connection\bin\x86\Debug\Models.pdb
+D:\Seminario\Proyecto Final\Connection\bin\x86\Debug\Models.pri
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.AssemblyReference.cache
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.CoreCompileInputs.cache
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\Connection.csproj.CopyComplete
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\Models.pri.xml
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\Connection.dll
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\Connection.pdb
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\priconfig.xml
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\priconfig.xml.intermediate
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\unfiltered.layout.resfiles
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\filtered.layout.resfiles
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\excluded.layout.resfiles
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\resources.resfiles
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\resources.resfiles.intermediate
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\pri.resfiles
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\pri.resfiles.intermediate
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\qualifiers.txt
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Seminario\Proyecto Final\Connection\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
